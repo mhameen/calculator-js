@@ -4,13 +4,13 @@ let screenValue = ""
 for(item of buttons){
     item.addEventListener('click',(e)=>{
         buttonText = e.target.innerText;
-        console.log('text contains' , buttonText )
-        if(buttonText == 'X'){
-            buttonText = '*';
-            screenValue += buttonText; 
-            screen.value = screenValue ;
-        }
-        else if(buttonText == 'C'){
+        // console.log('text contains' , buttonText )
+        // if(buttonText == 'X'){
+        //     buttonText = '*';
+        //     screenValue += buttonText; 
+        //     screen.value = screenValue ;
+        // }
+        if(buttonText == 'C'){
             screenValue = "";
             screen.value = screenValue;
         }

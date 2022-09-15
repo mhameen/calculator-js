@@ -14,12 +14,12 @@ table{
 h1{
     margin-bottom: 20px;
     margin-top: 20px;
-    color: purple;
+    color: black;
 }
 button{
     width: 50px;
     height: 50px;
-    background-color: aquamarine;
+    background-color: whitesmoke;
     border-radius: 10px;
     margin: 3px;
     font-size: 25px;
@@ -36,11 +36,11 @@ input{
     font-size: 25px;
     border-radius: 10px;
     border: 2px solid black;
-    color: violet;
+    color: BLACK;
 }
 .calculator{
    display: inline-block;
-   background-color: blueviolet;
+   background-color: grey;
    padding: 10px;
    border: 5px solid black;
    border-radius: 10px;
